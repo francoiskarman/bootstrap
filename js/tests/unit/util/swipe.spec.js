@@ -49,7 +49,7 @@ describe('Swipe', () => {
       '</style>'
     ].join('')
 
-    fixtureEl.innerHTML = '<div id="swipeEl"></div>' + cssStyle
+    fixtureEl.innerHTML = `<div id="swipeEl"></div>${cssStyle}`
     swipeEl = fixtureEl.querySelector('div')
   })
 
