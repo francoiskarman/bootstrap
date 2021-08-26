@@ -1,5 +1,5 @@
-import EventHandler from '../dom/event-handler'
-import { execute, typeCheckConfig } from './index'
+import EventHandler from '../dom/event-handler.js'
+import { execute, typeCheckConfig } from './index.js'
 
 const EVENT_KEY = '.bs.swipe'
 const EVENT_TOUCHSTART = `touchstart${EVENT_KEY}`
