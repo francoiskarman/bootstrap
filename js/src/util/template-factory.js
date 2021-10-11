@@ -53,7 +53,7 @@ class TemplateFactory {
   // Public
 
   getContent() {
-    return Object.values(this._config.content).map(this._resolvePossibleFunction).filter(Boolean)
+    return Object.values(this._config.content).map(config => this._resolvePossibleFunction(config)).filter(Boolean)
   }
 
   hasContent() {
